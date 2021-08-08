@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+
+/* .web{
+
+    width: 1000px;
+    height: 1400px;
+    margin: 0 auto; 
+    background-color: aqua; 
+}*/
+.header{
+    width: 1000px;
+    height: 24px;
+    background-color: dodgerblue;
+    margin: 0 auto;
+}
+.main{
+    width: 1000px;
+    height: 116px;
+    /* background-color: pink; */
+    margin: auto;
+    position: relative;
+}
+.logo {
+    width: 121px;
+    height: 63px;
+    position: absolute;
+    margin-top: 38px;
+    margin-left: 73px;
+    background: url(../images/logo.jpg);
+}
+.logo a{
+    display:block;
+    text-indent: -9999px;
+}
+.nav{
+    margin-top: 70px;
+    margin-left: 264px;
+    position: absolute;
+}
+input{
+    width: 216px;
+    height: 30px;
+    /* position: relative; */
+    margin-bottom: 75px;
+}
+.fr{
+    display: inline-flex;
+}
+.dropdown{
+    padding-right: 15px;
+    position: relative;
+}
+.tab{
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+    background: url(../images/a.jpg);
+}
+.title{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 144px;
+    height: 36px;
+    border: 1px solid #ccc;
+} 
+h3{
+    margin-top: -15px;
+    margin-left: 35px;
+    background-color: #ffffff;
+    display: inline-block;
+    position: absolute;
+}
+em{
+    margin-left: 39px;
+    font-size: 13px;
+    position: relative;
+    display: inline-block;
+    margin-top: 8px;
+}
+.service{
+    width: 1000px;
+
+    margin: 0 auto;
+}
+
+
+h4{
+    width: 100%;
+    margin-top: 17px;
+    /* background-color: blueviolet; */
+    text-align: center;
+    font-size: 17px;
+}
+.service p{
+    margin-top: 17px;
+}
+
+.service span{
+    font-size: 14px;
+    text-align: center;
+    
+    display: block;
+}
+
+.tuyi{
+    width: 267px;
+    height: 319px;
+    margin-left: 51px;
+    margin-top: 27px;
+    display: inline-block;
+    background-color: #f2f2f2;
+}
+.tuyi img{
+    margin-left: 71px;
+    margin-top: 18px;
+}
+
+.tuer{
+    width: 322px;
+    height: 319px;
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: bottom;
+    background-color: #f2f2f2;
+}
+.tuer img{
+    margin-left: 100px;
+    margin-top: 18px;
+}
+.tusam{
+    width: 270px;
+    height: 319px;
+    margin-left: 19px;
+    display: inline-block;
+    vertical-align: bottom;
+    background-color: #f2f2f2;
+}
+.tusam img{
+    margin-left: 72px;
+    margin-top: 20px;
+}
+.tuer p{
+    padding-left: 34px;
+    padding-right: 20px;
+}
+.hot {
+    width: 1000px;
+    
+    margin: 0 auto;
+    margin-top: 17px;
+    
+}
+.subt{
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 14px;
+}
+.hot ul a li{
+    width: 135px;
+    height:30px;
+    background-color: #6db6ff;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+    /* display: initial-block; */
+    float:left;
+    margin-bottom: 25px;
+    margin-left:75px;
+    
+}
+.status {
+    float:left;
+    margin-left: 50px;
+}
+.xia{
+    float: left;
+    margin-left:3px;
+    /* clear: both; */
+}
+.zhong{
+    margin-left:3px;
+   
+}
+.partner{
+    width:1000px;
+    height:100%;
+    /* background-color: red; */
+    /* background: url(../images/1.png); */
+    background-repeat: no-repeat;
+    clear: both;
+    margin: auto;
+}
+.partner img{
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+.guild{
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    /* background-color: red; */
+    
+}
+.guild_z{
+    width: 166px;
+    margin-left: 50px;
+    float: left;
+}
